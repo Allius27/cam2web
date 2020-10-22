@@ -148,6 +148,11 @@ namespace Private
             mg_send( mConnection, buffer, static_cast<int>( length ) );
         }
 
+        void Send( const std::vector<unsigned char> & buffer, size_t length )
+        {
+            mg_send( mConnection, buffer.data(), static_cast<int>( length ) );
+        }
+
         // Print formatted response
         void Printf( const char *fmt, ... )
         {
