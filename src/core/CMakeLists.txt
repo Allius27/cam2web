@@ -26,7 +26,7 @@ add_library( ${PROJECT_NAME} SHARED
 set_target_properties ( ${PROJECT_NAME}
 	PROPERTIES 
 		PUBLIC_HEADER 
-			"XObjectConfigurationRequestHandler.hpp;XWebServer.hpp"
+			"XObjectConfigurationRequestHandler.hpp;XWebServer.hpp;XInterfaces.hpp"
 )
 
 INSTALL(
