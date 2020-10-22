@@ -19,7 +19,6 @@ add_library( ${PROJECT_NAME} SHARED
 	XObjectConfigurationRequestHandler.cpp
 	XSimpleJsonParser.cpp
 	XStringTools.cpp
-	XVideoSourceToWeb.cpp
 	XWebServer.cpp
 )
 
