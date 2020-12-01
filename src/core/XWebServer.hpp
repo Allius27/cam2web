@@ -80,7 +80,7 @@ public:
     virtual size_t ToSendDataLength( ) const = 0;
 
     virtual void Send( const uint8_t* buffer, size_t length ) = 0;
-    virtual void Send( const std::vector<unsigned char> & buffer, size_t length ) = 0;
+    virtual void Send( const std::vector<unsigned char> & buffer ) = 0;
     virtual void Printf( const char* fmt, ... ) = 0;
 
     virtual void SendChunk( const uint8_t* buffer, size_t length ) = 0;
